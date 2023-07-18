@@ -29,8 +29,6 @@ nav a{
 .banner{
     width: 100%;
 }
-
-
 .marcas{
     width: 940px;
     margin: 0 auto;
@@ -43,11 +41,52 @@ nav a{
 .marcas li{
     display: inline-block;
     text-align: center;
+    width: 18%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    margin-top: 8px;
+    padding: 40px 100px;
+    box-sizing: border-box;
+    border-radius: 20px 30px 20px 50px ;
+}
+.roupas{
+    width: 940px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.roupas img{
+    width: 200px;
+    height: 200px;
+}
+.roupas li{
+    display: inline-block;
+    text-align: center;
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
     margin-top: 10px;
     padding: 30px 20px;
     box-sizing: border-box;
+    border: 3px solid #693484;
     border-radius: 10px 20px 10px 40px ;
+}
+.roupas li:hover{
+    border-color: #C78c19;
+}
+.roupas li:active{
+    border-color: #0c9107;
+}
+.roupas li:hover h2{
+    font-size: 34px;
+}
+.roupas h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.roupas-preco{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: rgb(255, 255, 255) 0;
 }
